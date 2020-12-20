@@ -60,4 +60,9 @@ class Creator extends React.Component {
   }
 }
 
+Creator.propTypes = {
+  action: PropTypes.func,
+
+};
+
 export default Creator;
